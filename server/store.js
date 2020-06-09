@@ -1,5 +1,5 @@
 const storage = require('azure-storage')
-const service = storage.createTableService('opmagazyn','j8oe5Wd5Rz/07/pp17JBfkO7ajufnzhlG4/zCmjnhzLDxyNG/lcOTSEEswhaY1rmdN821uHVoSrHLVy0EluOKg==')
+const service = storage.createTableService()
 const table = 'tasks'
 
 const init = async () => (
